@@ -1,38 +1,95 @@
 body {
-  margin: 30px;
-  background-color: #eaf5fb;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 30px;
 }
 
-.well {
-  background-color: #c7afaa;
+body {
+  background: linear-gradient(90deg, #eb5757, #000000);
 }
 
-.notable-inventions {
-  margin-top: 80px;
+h1 {
+  font-family: Raleway;
+  color: #fff;
 }
 
-.carousel-content {
-  display: flex;
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 15px;
   font-style: italic;
-  font-size: 20px;
+}
+
+h1,
+h2 {
+  margin: 7 px;
+}
+
+h3 {
+  font-family: Raleway;
+  text-align: center;
+  color: #fff;
+}
+
+p {
+  font-family: Raleway;
+  color: #000;
+  line-height: 25px;
+}
+
+.large-image {
+  width: 600px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.third-image {
+  width: 600px;
+  height: 600px;
+  border-radius: 90%;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tesla-padding {
+  padding: 30px;
+}
+
+#title {
   text-align: center;
 }
 
-#quote-carousel {
-  width: 100%;
-  height: auto;
-  padding: 50px;
-  margin-top: 30px;
+#link {
+  font-family: Raleway;
 }
 
-.quote-signature {
-  color: black;
-  font-style: normal;
+#image {
+  width: 472px;
+  height: 600px;
+  border-radius: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
 }
 
-.panel {
-  margin-top: 40px;
-  font-size: 20px;
+#img-caption {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Raleway;
+  color: #000;
+  line-height: 25px;
   text-align: center;
-  border: 10px solid #d9edf7;
+}
+
+#tribute-info {
+  font-family: Raleway;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: justify;
+  color: #000;
 }
